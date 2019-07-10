@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body,html {
+    padding: 0;
+    margin: 0;
+}
+
+.bg {
+ height: 90vh;
+ background: white;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ cursor: pointer;
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: 10vh;
+}
+
+.btn {
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.btn-1 {
+    background: #ffa600;
+}
+
+.btn-2 {
+    background: #ff6361;
+}
+
+.btn-3 {
+    background: #bc5090;
+}
+
+.btn-4 {
+    background: #58508d;
+}
+
+.btn-5 {
+    background: #003f5c;
+}
